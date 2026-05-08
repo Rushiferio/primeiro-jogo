@@ -1,4 +1,20 @@
 # Windows
+# Identifica arquivos .yy como GML (evita detecção incorreta como Yacc)
+*.yy linguist-language=GML
+*.yy linguist-generated=true
+
+# Força quebras de linha padrão LF (evita conflitos entre Windows/Mac/Linux)
+*.yy text eol=lf
+*.yyp text eol=lf
+*.gml text eol=lf
+*.json text eol=lf
+
+# Trata arquivos de imagem e áudio como binários (evita corrupção)
+*.png binary
+*.jpg binary
+*.wav binary
+*.ogg binary
+
  
 # Windows thumbnail cache files
 Thumbs.db
@@ -51,7 +67,6 @@ Icon
 .AppleDB
 .AppleDesktop
 Network Trash Folder
-Temporary Items
 .apdisk
  
 # GameMaker temporary files
