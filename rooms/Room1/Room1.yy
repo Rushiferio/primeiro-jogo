@@ -13,8 +13,8 @@
   ],
   "name":"Room1",
   "parent":{
-    "name":"Burnout",
-    "path":"Burnout.yyp",
+    "name":"Fases",
+    "path":"folders/Fases.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
