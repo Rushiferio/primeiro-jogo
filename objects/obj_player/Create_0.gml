@@ -1,3 +1,11 @@
+//attack
+atk_coolwdon = 25 //intervalo entre os tiros
+atk_sprite = spr_atk_default
+atk_obj = noone
+atk_list = []
+is_atk = false
+tipo = "range"
+
 //variaveis de movimentação
 hspd = 0
 vspd = 0
