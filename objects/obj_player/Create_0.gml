@@ -1,9 +1,14 @@
+//atributo
+life = 20
+armor = 2
+invencible = false
+faccao = "player"
+
+
 //attack
-atk_coolwdon = 25 //intervalo entre os tiros
 atk_sprite = spr_atk_default
 atk_list = []
 is_atk = false
-tipo = "range"
 
 //variaveis de movimentação
 hspd = 0
@@ -29,3 +34,5 @@ sprite_direction = [
 	"down",
 	"right_down",
 ]
+
+hurtbox = scr_hurtbox_scale()

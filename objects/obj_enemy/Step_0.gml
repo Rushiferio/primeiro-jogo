@@ -1,3 +1,4 @@
+
 if(instance_exists(obj_player))
 {
 	var _dir = point_direction(x, y, obj_player.x, obj_player.y)
@@ -11,3 +12,4 @@ if(instance_exists(obj_player))
 	x += _hspd;
     y += _vspd;
 }
+if(life <= 0) instance_destroy()

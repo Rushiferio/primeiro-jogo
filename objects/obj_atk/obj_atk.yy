@@ -3,6 +3,7 @@
   "%Name":"obj_atk",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_atk",
@@ -30,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_atk_default",
-    "path":"sprites/spr_atk_default/spr_atk_default.yy",
+    "name":"spr_atk",
+    "path":"sprites/spr_atk/spr_atk.yy",
   },
   "spriteMaskId":null,
   "visible":true,

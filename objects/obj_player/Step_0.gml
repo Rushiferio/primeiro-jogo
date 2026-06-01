@@ -48,8 +48,11 @@ if (hspd != 0 || vspd != 0)
 if (mouse_check_button(mb_left) && !is_atk)
 {
 	is_atk = true
-	var _atk_obj = instance_create_depth(x,y, -100, obj_atk, {direction: _dir})
-	alarm[0] = atk_coolwdon
+	var _obj_atk = instance_create_depth(x,y, -100, obj_atk, {direction: _dir})
+	_obj_atk.creator = id
+	_obj_atk.speed = 4
+	_obj_atk.sprite_index = spr_atk_default
+	alarm[0] =_obj_atk.atk_cooldown
 }
 
 

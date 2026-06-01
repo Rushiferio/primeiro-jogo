@@ -1,17 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_player",
+  "%Name":"obj_hitbox",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_hurtbox","path":"objects/obj_hurtbox/obj_hurtbox.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_player",
+  "name":"obj_hitbox",
   "overriddenProperties":[],
   "parent":{
-    "name":"Entity",
-    "path":"folders/Object/Entity.yy",
+    "name":"box",
+    "path":"folders/Object/world/box.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_player_up",
-    "path":"sprites/spr_player_up/spr_player_up.yy",
+    "name":"spr_hitbox",
+    "path":"sprites/spr_hitbox/spr_hitbox.yy",
   },
   "spriteMaskId":null,
   "visible":true,
