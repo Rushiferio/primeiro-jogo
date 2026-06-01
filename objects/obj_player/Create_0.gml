@@ -1,8 +1,19 @@
+//keys
+up = "W"
+down = "S"
+left = "A"
+right = "D"
+grab = "E"
+pause = "ESC"
+
+
 //atributo
 life = 20
 armor = 2
 invencible = false
 faccao = "player"
+entity = noone
+canGrab = false
 
 
 //attack
@@ -13,7 +24,7 @@ is_atk = false
 //variaveis de movimentação
 hspd = 0
 vspd = 0
-move_speed = 1.5
+move_speed = 2.5
 
 //dicionário e lista com todas as direções ligadas com suas sprites
 //left e right tem a mesma sprite mudando apenas o xscale

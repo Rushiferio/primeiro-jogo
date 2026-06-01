@@ -11,7 +11,10 @@ creator = noone
 
 
 penetration = false
+ghost = false
 bounced = false
 multiplication = 1
+hit = instance_create_layer(x,y,"Instances", obj_hitbox)
+scr_hitbox_scale(noone,hit)
 
-scr_hitbox_scale(noone)
+alarm[0] = 60*120

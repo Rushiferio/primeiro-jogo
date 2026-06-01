@@ -1,8 +1,8 @@
 //mapeamento de teclas
-key_up = keyboard_check(ord("W"))
-key_down = keyboard_check(ord("S"))
-key_left = keyboard_check(ord("A"))
-key_right = keyboard_check(ord("D"))
+key_up = keyboard_check(ord(up))
+key_down = keyboard_check(ord(down))
+key_left = keyboard_check(ord(left))
+key_right = keyboard_check(ord(right))
 
 //movimentação
 hspd = key_right - key_left
@@ -55,4 +55,20 @@ if (mouse_check_button(mb_left) && !is_atk)
 	alarm[0] =_obj_atk.atk_cooldown
 }
 
+//arremessando inimigos mortos
+if(canGrab == true && entity.state == "dead")
+{
+	if(keyboard_check(ord("E")))
+	{
+		entity.x = x
+		entity.y = y
+	}else if(keyboard_check_released(ord(grab)))
+	{
+		with (entity) {
+			speed = 8;
+			direction = _dir;
+			state = "throw"; 
+    }
+	}
+}
 
